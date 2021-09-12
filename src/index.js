@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import 'tachyons';
+import App from './container/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+          <body>
+             <App />
+          </body>
+</React.StrictMode>,
   document.getElementById('root')
 );
 
